@@ -4,7 +4,7 @@ module.exports = defineConfig({
   css: {
     loaderOptions: {
       scss: {
-        additionalData: `@import "@styles/_variables.scss";`,
+        additionalData: `@import "@/styles/vue.scss";`,
       },
     },
   },
